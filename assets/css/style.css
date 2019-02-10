@@ -164,6 +164,12 @@ header {
     margin-bottom: 15px;
 }
 
+/*....................................................................................Personal information */
+
+.bg-color-personal-information {
+    background-color: #f4f4f4;
+}
+
 /*....................................................................................footer */
 
 footer {
