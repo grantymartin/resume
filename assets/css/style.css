@@ -23,12 +23,6 @@ h4 {
     display: inline-block;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
-
 .row-table {
     display: table;
 }
@@ -48,6 +42,10 @@ h4 {
 
 .bg-color-three-reasons {
     background-color: #ffffff;
+}
+
+.bg-color-personal-information {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -166,8 +164,38 @@ header {
 
 /*....................................................................................Personal information */
 
-.bg-color-personal-information {
-    background-color: #f4f4f4;
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0px;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
 }
 
 /*....................................................................................footer */
@@ -214,9 +242,20 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background:#e84610;
+    background: #e84610;
 }
 
 #footer-details {
     margin: 20px;
+}
+
+
+/*....................................................................................media */
+
+@media (min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
 }
