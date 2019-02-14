@@ -2,6 +2,7 @@
 
 /*....................................................................................special paddings/margins/text/ect */
 
+
 h1,
 h2,
 h3,
@@ -86,6 +87,7 @@ h4 {
 header {
     margin: 0px;
 }
+
 
 .heading {
     margin-left: 50px;
